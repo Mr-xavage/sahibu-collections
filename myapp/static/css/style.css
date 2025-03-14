@@ -25,17 +25,17 @@ CSS STRUCTURE:
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
-  --heading-color: #ca1414;
+  --heading-color: #111;
   --heading-line-height: 1.24;
 
-  --swiper-theme-color: rgba(38, 129, 69, 0);
+  --swiper-theme-color: #8C907E;
 
   /* bootstrap */
   --bs-body-font-family: "Jost", Roboto, sans-serif;
   --bs-body-font-size: 18px;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #e6db10;
+  --bs-body-color: #8f8f8f;
   --bs-body-color-rgb: 143, 143, 143;
 
   --bs-primary: #8C907E;
@@ -156,15 +156,16 @@ a {
 .dropdown-item {
   --bs-dropdown-item-padding-y: 0.25rem;
   --bs-dropdown-item-padding-x: 1rem;
-  --bs-dropdown-link-color: var(--bs-black);
+  --bs-dropdown-link-color: #2980B9; /* Changed link color to a shade of blue */
   --bs-dropdown-item-border-radius: 0;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
-  --bs-dropdown-link-active-color: var(--bs-light);
-  --bs-dropdown-link-active-bg: var(--bs-black);
+  --bs-dropdown-link-active-color: #F5F5F5; /* Changed active link color to a light shade */
+  --bs-dropdown-link-active-bg: #2ECC71; /* Changed active background color to a shade of green */
 }
+
 
 /* list group */
 .list-group-item {
@@ -248,7 +249,7 @@ a {
 [data-bs-theme=dark] body {
   color-scheme: dark;
 
-  --heading-color: #83e116;
+  --heading-color: #fff;
   --bs-link-color: #fff;
   --bs-link-hover-color: #fff;
   --bs-link-color-rgb: 255, 255, 255;
